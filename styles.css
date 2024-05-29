@@ -6,12 +6,13 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    cursor: default;
 }
 
 .container {
     text-align: center;
     background: #fff;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -28,13 +29,15 @@ h1 {
 
 p {
     font-size: 1em;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .email-form {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .email-form input {
@@ -62,7 +65,7 @@ p {
 }
 
 .social-media {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .social-media a {
@@ -72,6 +75,6 @@ p {
     font-size: 1em;
 }
 
-.social-media a:hover {
-    text-decoration: underline;
+.social {
+    max-width: 30px;
 }
